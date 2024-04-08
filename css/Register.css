@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    background-color: #1C6675;
+}
+
+.container {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+}
+
+.container img {
+    border-radius: 20px;
+    height: 600px;
+    width: 600px;
+}
+
+form {
+    display: flex;
+
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    width: 350px;
+}
+
+.container input {
+    height: 20px;
+    width: 320px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 0px 10px;
+    border-color: #1C6675;
+}
+
+.container input::placeholder {
+    font-size: 14px;
+}
+
+.name {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.name input {
+    width: 140px;
+}
+
+form button {
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: #1C6675;
+    color: aliceblue;
+    margin: auto;
+    border-radius: 10px;
+}
+
+select {
+    height: 30px;
+    width: 100px;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+a{
+    color:#1C6675;
+    justify-self: center;
+    align-self: center ;
+}
+
+form h1 {
+    font-family: Helvetica, Arial;
+}

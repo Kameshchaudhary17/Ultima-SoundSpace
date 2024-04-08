@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #1C6675;
+}
+.container{
+    border-radius: 20px;
+    background-image: url("../Image/Login.jpg");
+    background-size: cover;
+    width: 160vh;
+    height: 700px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(12, 124, 134, 0.5);
+    margin-right: 40px;
+    height: 85vh;
+    width: 350px;
+    border-radius: 20px;
+    gap: 20px;
+    padding-left: 15px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.logo img{
+    height: 150px;
+    width: 150px;
+}
+.logo h1{
+    color: rgb(39, 206, 206);
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.field input{
+    height: 30px;
+    width: 320px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background:none;
+    outline: none;
+    padding: 0px 10px;
+    border-color: rgb(39, 206, 206);
+}
+::placeholder{
+    color: rgb(39, 206, 206);
+}
+button{
+    height: 30px;
+    width: 320px;
+    border-radius: 30px;
+    color: white;
+    background-color:#1C6675;
+    border: none;
+}
+.signup{
+    display: flex;
+    gap: 5px;
+}
+.signup p{
+    color: rgb(39, 206, 206);
+}
+.signup a{
+    color: #fff;
+}
