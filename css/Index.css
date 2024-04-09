@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    background-color: #1C6675;
+    height: 100px;
+    width: 100%;
+}
+.navbar img{
+    height: 150px;
+    width: 150px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.search input{
+    height: 30px;
+    width: 400px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.search i{
+    font-size: 20px;
+    color: aliceblue;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.login button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #1C6675;
+    background: linear-gradient(90deg, rgba(250,249,255,1) 0%, rgba(28,102,117,1) 100%);
+}
+.login i{
+    font-size: 30px;
+    color: aliceblue;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 40px;
+}
+.about h1{
+    font-size: 60px;
+    color: rgb(47, 134, 156);
+}
+.about p{
+    line-height: 25px;
+    width: 520px;
+    text-align: justify;
+    font-size: 15px;
+    color: #1C6675;
+}
+.about button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid#1C6675;
+    background-color: rgb(255, 255, 255);
+    color: #1C6675;
+    cursor: pointer;
+}
+.about button:hover{
+        color: white;
+        background-color: #1C6675;
+        border: 1px solid white;
+        transition: all ease-in-out 0.3s;
+    }
+
+.content img{
+    height: 600px;
+    width: 650px;
+}
