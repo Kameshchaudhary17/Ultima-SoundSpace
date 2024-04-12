@@ -2,17 +2,24 @@
     padding: 0;
     margin: 0;
 }
-.container{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 150px;
+}
 .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 250px;
+    gap: 300px;
     background-color: #1C6675;
     height: 100px;
     width: 100%;
@@ -21,18 +28,24 @@
     height: 150px;
     width: 150px;
 }
-.search{
+.menu{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
 }
-.search input{
-    height: 30px;
-    width: 400px;
-    font-size: 15px;
-    border-radius: 10px;
-    border: none;
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
 }
 .search i{
     font-size: 20px;
@@ -105,4 +118,34 @@
 .content img{
     height: 600px;
     width: 650px;
+}
+.collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    background-color: rgba(238, 238, 238, 0.5);
+    gap: 10px;
+    padding: 10px;
+}
+.item img{
+    height: 400px;
+    width: 400px;
+}
+.item p{
+    font-size: 20px;
+    color: #1C6675;
+}
+.item:hover{
+    background-color: rgba(205, 205, 205, 0.5);
 }
