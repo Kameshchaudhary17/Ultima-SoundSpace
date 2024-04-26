@@ -9,19 +9,11 @@ body{
     flex-direction: column;
     gap: 30px;
 }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 50px;
-}
 .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 300px;
-    background-color: #1C6675;
+    gap: 280px;
     height: 100px;
     width: 100%;
 }
@@ -46,14 +38,14 @@ body{
 .menu a{
     text-decoration: none;
     font-size: 20px;
-    color: aliceblue;
+    color: #1C6675;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     position: relative;
     
 
     &:hover{
-        color:#ffffff;
+        color: #1C6675;
         
     }
     &::after{
@@ -67,13 +59,9 @@ body{
     }
     &:hover::after{
         height: 2px;
-        background-color: #ffffff;
+        background-color: #1C6675;
         width: 100%;
     }
-}
-.search i{
-    font-size: 20px;
-    color: aliceblue;
 }
 .login{
     display: flex;
@@ -81,24 +69,54 @@ body{
     align-items: center;
     gap: 20px;
 }
-.login button{
+.login i{
+    font-size: 30px;
+    color: #1C6675;
+    cursor: pointer;
+}
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    height: 40px;
-    width: 150px;
-    border: none;
+    gap: 150px;
+    background-color: #1C6675;
+    width: 80%;
+    height: 300px;
     border-radius: 20px;
-    font-size: 20px;
-    cursor: pointer;
-    color: #1C6675;
-    background: linear-gradient(90deg, rgba(250,249,255,1) 0%, rgba(28,102,117,1) 100%);
 }
-.login i{
-    font-size: 30px;
-    color: aliceblue;
-    cursor: pointer;
+
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+}
+.search h2{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+
+.search input{
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+
+    z-index: 1;
+}
+
+.search-btn{
+    position: relative;
+}
+
+
+.container img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    object-fit: cover;
 }
 .content{
     display: flex;
@@ -106,40 +124,6 @@ body{
     align-items: center;
     gap: 50px;
 }
-.about{
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    gap: 40px;
-}
-.about h1{
-    font-size: 60px;
-    color: rgb(47, 134, 156);
-}
-.about p{
-    line-height: 25px;
-    width: 520px;
-    text-align: justify;
-    font-size: 15px;
-    color: #1C6675;
-}
-.about button{
-    height: 40px;
-    width: 150px;
-    font-size: 20px;
-    border-radius: 20px;
-    border: 1px solid#1C6675;
-    background-color: rgb(255, 255, 255);
-    color: #1C6675;
-    cursor: pointer;
-}
-.about button:hover{
-        color: white;
-        background-color: #1C6675;
-        border: 1px solid white;
-        transition: all ease-in-out 0.3s;
-    }
 
 .content img{
     height: 600px;
@@ -187,12 +171,25 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.about h1{
+    font-size: 60px;
+    color: rgb(47, 134, 156);
+}
+.about p{
+    line-height: 25px;
+    width: 520px;
+    text-align: justify;
+    font-size: 15px;
+    color: #1C6675;
 }
 .about_us{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 50px;
+    align-items: start;
+    gap: 40px;
 
 }
 .about_us p{
