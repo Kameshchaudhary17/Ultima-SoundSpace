@@ -99,16 +99,24 @@ body{
 }
 
 
-.search input{
-    width: 400px;
-    height: 40px;
-    padding-left: 10px;
-
-    z-index: 1;
+.search-bar {
+    position: relative;
 }
 
-.search-btn{
-    position: relative;
+.search-bar input {
+    padding: 10px 40px 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-bar i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: #888;
+    cursor: pointer;
 }
 
 
